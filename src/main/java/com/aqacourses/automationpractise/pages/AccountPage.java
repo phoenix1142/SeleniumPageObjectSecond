@@ -19,7 +19,6 @@ public class AccountPage extends AbstractPage {
     @FindBy (xpath = "//*[@class='logout']")
     private WebElement signOutButton;
 
-
     /**
      * Constructor
      *
@@ -43,4 +42,8 @@ public class AccountPage extends AbstractPage {
         signOutButton.click();
         return this;
     }
+
+
+
+
 }

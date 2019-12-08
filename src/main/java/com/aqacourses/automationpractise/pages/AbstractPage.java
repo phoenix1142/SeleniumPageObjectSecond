@@ -20,21 +20,44 @@ public class AbstractPage {
     @FindBy(xpath = "//*[@id='homeslider']")
     WebElement pageDiv;
 
+    @FindBy(xpath = "//*[@id=\"block_top_menu\"]/ul/li[2]/a")
+    private WebElement clickDresses;
 
-    /** Constructor */
+    @FindBy (xpath = "//*[@title='Summer Dresses']")
+    private WebElement selectSummerDresses;
+
+
+    /**
+     * Constructor
+     */
     public AbstractPage(BaseTest testClass) {
         this.testClass = testClass;
-        PageFactory.initElements(testClass.getDriver(),this); // Initialize WebElements
+        PageFactory.initElements(testClass.getDriver(), this); // Initialize WebElements
         //wait.until(ExpectedConditions.visibilityOf(pageDiv));
     }
 
     /**
      * Click on SignIn and get Login Page
+     *
      * @return
      */
     public SignInPage clickSignInLink() {
         testClass.waitTillElementIsVisible(signIn);
         signIn.click();
         return new SignInPage(testClass);
+    }
+/*
+select menu dresses
+ */
+    public DressesPage clickToDressesMenu() {
+        clickDresses.click();
+        return new DressesPage(testClass);
+    }
+/*
+select in Dress menu Summer Dresses
+ */
+    public SummerDresses selectInDressesMenuSummer(){
+        selectSummerDresses.click();
+        return new SummerDresses(testClass);
     }
 }
