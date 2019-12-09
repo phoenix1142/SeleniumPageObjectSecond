@@ -10,16 +10,16 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class SignInPage extends AbstractPage {
     @FindBy(xpath = "//*[@class='page-heading']")
-    public WebElement checkLoginPage;
+    private WebElement checkLoginPage;
 
     @FindBy(xpath = "//*[@name='email']")
-    public WebElement email;
+    private WebElement email;
 
     @FindBy(xpath = "//*[@name='passwd']")
-    public WebElement password;
+    private WebElement password;
 
     @FindBy(xpath = "//*[@id='SubmitLogin']")
-    public WebElement buttonSignIn;
+    private WebElement buttonSignIn;
 
     /**
      * constructor
@@ -29,22 +29,6 @@ public class SignInPage extends AbstractPage {
     public SignInPage(BaseTest testClass) {
         super(testClass);
         testClass.waitTillElementIsVisible(checkLoginPage);
-    }
-
-    /*
-    click and enter some information to input field email
-     */
-    public SignInPage emailInput(String email) {
-        this.email.sendKeys(email);
-        return this;
-    }
-
-    /*
-    click and enter some information to input field password
-     */
-    public SignInPage passwordInput(String password) {
-        this.password.sendKeys(password);
-        return this;
     }
 
     /*
@@ -62,17 +46,11 @@ public class SignInPage extends AbstractPage {
      * @param password
      * @return
      */
-    public AccountPage register(String email, String password) {
-        emailInput(email);
-        passwordInput(password);
+    public AccountPage login(String email, String password) {
+        this.email.sendKeys(email);
+        this.password.sendKeys(password);
         clickSignInButton();
         return new AccountPage(testClass);
     }
-    /*
-    checkSignInPage method
-     */
-    public SignInPage checkSignInPage() {
-        testClass.waitTillElementIsVisible(checkLoginPage);
-        return this;
-    }
+
 }

@@ -9,8 +9,8 @@ public class CompareProducts extends BaseTest {
     public void testCompareProducts() {
         HomePage homePage = openSite();
         SignInPage signInPage = homePage.clickSignInLink();
-        AccountPage accountPage = signInPage.register("vanyaloboda.89@gmail.com", "12345");
-        DressesPage dressesPage = homePage.clickToDressesMenu();
+        AccountPage accountPage = signInPage.login("vanyaloboda.89@gmail.com", "12345");
+        DressesPage dressesPage = accountPage.clickToDressesMenu();
         SummerDresses summerDresses = dressesPage.selectCategoriesSummerDresses();
         summerDresses.compareCountOfDressesOnThePage();
         closeSite();

@@ -18,7 +18,7 @@ public class AbstractPage {
     private WebElement signIn;
 
     @FindBy(xpath = "//*[@id='homeslider']")
-    WebElement pageDiv;
+    private WebElement pageDiv;
 
     @FindBy(xpath = "//*[@id=\"block_top_menu\"]/ul/li[2]/a")
     private WebElement clickDresses;
@@ -53,11 +53,5 @@ select menu dresses
         clickDresses.click();
         return new DressesPage(testClass);
     }
-/*
-select in Dress menu Summer Dresses
- */
-    public SummerDresses selectInDressesMenuSummer(){
-        selectSummerDresses.click();
-        return new SummerDresses(testClass);
-    }
+
 }

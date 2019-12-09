@@ -38,9 +38,8 @@ public class AccountPage extends AbstractPage {
     /*
     click to button SignOut
      */
-    public AccountPage clickToSignOut(){
+    public void clickToSignOut(){
         signOutButton.click();
-        return this;
     }
 
 
