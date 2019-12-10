@@ -10,11 +10,16 @@ public class DressesPage extends AbstractPage {
 
     /**
      * constructor
+     *
      * @param testClass
      */
-    public DressesPage(BaseTest testClass){super(testClass);}
-
-    public SummerDresses selectCategoriesSummerDresses(){
+    public DressesPage(BaseTest testClass) {
+        super(testClass);
+    }
+/*
+move and click ti summer dresses categories
+ */
+    public SummerDresses selectCategoriesSummerDresses() {
         selectSummerDresses.click();
         return new SummerDresses(testClass);
     }

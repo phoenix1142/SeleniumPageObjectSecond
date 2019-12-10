@@ -1,12 +1,8 @@
 package com.aqacourses.automationpractise.pages;
 
 import com.aqacourses.automationpractise.base.BaseTest;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class SignInPage extends AbstractPage {
     @FindBy(xpath = "//*[@class='page-heading']")

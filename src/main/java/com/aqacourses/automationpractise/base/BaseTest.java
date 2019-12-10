@@ -2,6 +2,8 @@ package com.aqacourses.automationpractise.base;
 
 import com.aqacourses.automationpractise.pages.HomePage;
 import com.aqacourses.automationpractise.utils.YamlParser;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.Rule;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -14,8 +16,6 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Collections;
-import java.util.logging.LogManager;
-import java.util.logging.Logger;
 
 public class BaseTest {
     private WebDriver driver;
@@ -29,8 +29,8 @@ public class BaseTest {
     @Rule public RunTestRules runTestRules = new RunTestRules(this);
 
 
-    /**
-     * constructor with common settings
+    /*
+      constructor with common settings
      */
     public BaseTest(){
         // If you want to disable infobars please use this code

@@ -9,6 +9,8 @@ import org.openqa.selenium.TakesScreenshot;
 import java.io.File;
 import java.io.IOException;
 
+
+
 /**
  * This class extends from TestWatcher class from JUnit framework With this combination you can
  * override methods from TestWatcher and add realization for them and create rule for test running

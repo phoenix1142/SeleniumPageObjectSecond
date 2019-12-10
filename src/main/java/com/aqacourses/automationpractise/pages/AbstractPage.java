@@ -1,12 +1,9 @@
 package com.aqacourses.automationpractise.pages;
 
 import com.aqacourses.automationpractise.base.BaseTest;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class AbstractPage {
     protected BaseTest testClass;
@@ -23,7 +20,10 @@ public class AbstractPage {
     @FindBy(xpath = "//*[@id=\"block_top_menu\"]/ul/li[2]/a")
     private WebElement clickDresses;
 
-    @FindBy (xpath = "//*[@title='Summer Dresses']")
+    @FindBy(xpath = "//*[@id=\"block_top_menu\"]/ul/li[3]/a")
+    private WebElement clickTshirts;
+
+    @FindBy(xpath = "//*[@title='Summer Dresses']")
     private WebElement selectSummerDresses;
 
 
@@ -46,12 +46,21 @@ public class AbstractPage {
         signIn.click();
         return new SignInPage(testClass);
     }
-/*
-select menu dresses
- */
+
+    /*
+    select menu dresses
+     */
     public DressesPage clickToDressesMenu() {
         clickDresses.click();
         return new DressesPage(testClass);
+    }
+
+    /*
+    select Tshirts categorie
+     */
+    public Tshirts clickToTshirtsCategory() {
+        clickTshirts.click();
+        return new Tshirts(testClass);
     }
 
 }
