@@ -19,10 +19,17 @@ public class CompareProducts extends BaseTest {
     @Test
     public void checkCountOfOrders(){
         HomePage homePage = openSite();
+        log("Open our site");
         SignInPage signInPage = homePage.clickSignInLink();
+        log("Click to SignIn");
         AccountPage accountPage = signInPage.login("vanyaloboda.89@gmail.com", "12345");
+        log("Login");
         Tshirts tshirts = homePage.clickToTshirtsCategory();
+        log("Chose T-shirts category");
         TshirtsProduct tshirtsProduct = tshirts.choseTshirtsProduct();
+        log("Go to T-shirts product page");
+        AddTshirtsProduct addTshirtsProduct = tshirtsProduct.addProductToCart();
+        log("Add product");
 
         closeSite();
 

@@ -18,7 +18,6 @@ public class Tshirts extends AbstractPage {
      */
     public Tshirts(BaseTest testClass) {
         super(testClass);
-        testClass.waitTillElementIsVisible(checkTshirtsPage);
     }
 
     public TshirtsProduct choseTshirtsProduct(){
