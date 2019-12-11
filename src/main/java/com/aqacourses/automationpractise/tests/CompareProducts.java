@@ -17,7 +17,7 @@ public class CompareProducts extends BaseTest {
 //    }
 
     @Test
-    public void checkCountOfOrders(){
+    public void checkCountOfOrders() throws InterruptedException {
         HomePage homePage = openSite();
         log("Open our site");
         SignInPage signInPage = homePage.clickSignInLink();
@@ -30,6 +30,10 @@ public class CompareProducts extends BaseTest {
         log("Go to T-shirts product page");
         AddTshirtsProduct addTshirtsProduct = tshirtsProduct.addProductToCart();
         log("Add product");
+        ShoppingCartSummary shoppingCartSummary = addTshirtsProduct.clickToProceedToCheckOut();
+        log("Go to ShoppingCartSummary");
+        shoppingCartSummary.clickAndPlusOneProduct();
+        log("Add product and check price");
 
         closeSite();
 

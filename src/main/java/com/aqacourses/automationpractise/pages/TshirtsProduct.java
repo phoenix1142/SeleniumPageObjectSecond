@@ -8,7 +8,7 @@ public class TshirtsProduct extends Tshirts {
     @FindBy (xpath = "//*[@itemprop='name']")
     private WebElement checkTshirtsProductPage;
 
-    @FindBy (xpath = "//*[@class='exclusive added']/span")
+    @FindBy (xpath = "//*[@id=\"add_to_cart\"]/button/span")
     private WebElement clickToAdd;
 
     @FindBy (xpath = "//*[@class='icon-ok']")

@@ -1,0 +1,182 @@
+2019-01-10 21:01:12.411 [main] INFO   - Open our site
+2019-01-10 21:01:14.043 [main] INFO   - click and go to signInPage
+2019-02-10 21:02:39.379 [main] INFO   - open our site
+2019-09-10 22:09:54.941 [main] ERROR  - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='cat-name']' (tried for 10 second(s) with 500 milliseconds interval)
+2019-10-10 22:10:48.773 [main] ERROR  - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='cat-name']' (tried for 10 second(s) with 500 milliseconds interval)
+2019-13-10 22:13:14.807 [main] ERROR  - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='cat-name']' (tried for 10 second(s) with 500 milliseconds interval)
+2019-15-10 22:15:56.917 [main] ERROR  - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='page-heading product-listing']' (tried for 10 second(s) with 500 milliseconds interval)
+2019-34-11 20:34:50.016 [main] ERROR  - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='page-heading product-listing']' (tried for 10 second(s) with 500 milliseconds interval)
+2019-44-11 20:44:51.346 [main] ERROR  - Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@class='page-heading product-listing']' (tried for 10 second(s) with 500 milliseconds interval)
+2019-06-11 21:06:05.057 [main] ERROR  - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='exclusive added']/span"}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-92LEPER', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Temp\scoped_dir4312_1597...}, goog:chromeOptions: {debuggerAddress: localhost:51875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6b53a11ff2379a7fad2d1b9c2f06c53a
+*** Element info: {Using=xpath, value=//*[@class='exclusive added']/span}
+2019-09-11 21:09:07.100 [main] ERROR  - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='exclusive added']/span"}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-92LEPER', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Temp\scoped_dir11144_599...}, goog:chromeOptions: {debuggerAddress: localhost:52076}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3934d3f0b9c997dfe55dfa5f9455f6c7
+*** Element info: {Using=xpath, value=//*[@class='exclusive added']/span}
+2019-13-11 21:13:29.005 [main] INFO   - Open our site
+2019-13-11 21:13:30.592 [main] INFO   - Click to SignIn
+2019-13-11 21:13:33.205 [main] INFO   - Login
+2019-13-11 21:13:34.922 [main] INFO   - Chose T-shirts category
+2019-13-11 21:13:36.944 [main] INFO   - Go to T-shirts product page
+2019-13-11 21:13:37.455 [main] ERROR  - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='exclusive added']/span"}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-92LEPER', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Temp\scoped_dir8792_5152...}, goog:chromeOptions: {debuggerAddress: localhost:52365}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 0fd30778be2320fe784c02d99b428f25
+*** Element info: {Using=xpath, value=//*[@class='exclusive added']/span}
+2019-14-11 21:14:43.716 [main] INFO   - Open our site
+2019-14-11 21:14:45.453 [main] INFO   - Click to SignIn
+2019-14-11 21:14:47.114 [main] INFO   - Login
+2019-14-11 21:14:48.497 [main] INFO   - Chose T-shirts category
+2019-14-11 21:14:50.060 [main] INFO   - Go to T-shirts product page
+2019-14-11 21:14:50.588 [main] ERROR  - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='exclusive added']"}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-92LEPER', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Temp\scoped_dir5768_3125...}, goog:chromeOptions: {debuggerAddress: localhost:52470}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3bc4a4353ebe9a878542c7f9487a598b
+*** Element info: {Using=xpath, value=//*[@class='exclusive added']}
+2019-20-11 21:20:40.452 [main] INFO   - Open our site
+2019-20-11 21:20:42.281 [main] INFO   - Click to SignIn
+2019-20-11 21:20:43.979 [main] INFO   - Login
+2019-20-11 21:20:45.730 [main] INFO   - Chose T-shirts category
+2019-20-11 21:20:47.309 [main] INFO   - Go to T-shirts product page
+2019-20-11 21:20:47.818 [main] ERROR  - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='exclusive added']/."}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-92LEPER', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Temp\scoped_dir4744_3332...}, goog:chromeOptions: {debuggerAddress: localhost:52820}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dc62e49381fe1ba52282158e7be81a56
+*** Element info: {Using=xpath, value=//*[@class='exclusive added']/.}
+2019-22-11 21:22:01.721 [main] INFO   - Open our site
+2019-22-11 21:22:03.281 [main] INFO   - Click to SignIn
+2019-22-11 21:22:04.952 [main] INFO   - Login
+2019-22-11 21:22:06.678 [main] INFO   - Chose T-shirts category
+2019-22-11 21:22:08.190 [main] INFO   - Go to T-shirts product page
+2019-22-11 21:22:08.733 [main] ERROR  - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='exclusive added']/span"}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-92LEPER', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Temp\scoped_dir5032_2113...}, goog:chromeOptions: {debuggerAddress: localhost:52928}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 25b534b4ff11ffa40f0a0739bbc3b8b5
+*** Element info: {Using=xpath, value=//*[@class='exclusive added']/span}
+2019-30-11 21:30:47.115 [main] INFO   - Open our site
+2019-30-11 21:30:48.887 [main] INFO   - Click to SignIn
+2019-30-11 21:30:50.564 [main] INFO   - Login
+2019-30-11 21:30:52.553 [main] INFO   - Chose T-shirts category
+2019-30-11 21:30:54.228 [main] INFO   - Go to T-shirts product page
+2019-30-11 21:30:54.796 [main] ERROR  - no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class='exclusive added']/span"}
+  (Session info: chrome=78.0.3904.108)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-92LEPER', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Temp\scoped_dir6728_1939...}, goog:chromeOptions: {debuggerAddress: localhost:53463}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2736800665a12eb603b9bd07c603a1e2
+*** Element info: {Using=xpath, value=//*[@class='exclusive added']/span}
+2019-56-11 21:56:44.644 [main] INFO   - Open our site
+2019-56-11 21:56:46.168 [main] INFO   - Click to SignIn
+2019-56-11 21:56:48.031 [main] INFO   - Login
+2019-56-11 21:56:49.683 [main] INFO   - Chose T-shirts category
+2019-56-11 21:56:51.561 [main] INFO   - Go to T-shirts product page
+2019-56-11 21:56:52.816 [main] INFO   - Add product
+2019-21-11 22:21:27.303 [main] INFO   - Open our site
+2019-21-11 22:21:28.936 [main] INFO   - Click to SignIn
+2019-21-11 22:21:30.653 [main] INFO   - Login
+2019-21-11 22:21:32.338 [main] INFO   - Chose T-shirts category
+2019-21-11 22:21:33.768 [main] INFO   - Go to T-shirts product page
+2019-21-11 22:21:35.064 [main] INFO   - Add product
+2019-21-11 22:21:36.309 [main] INFO   - Go to ShoppingCartSummary
+2019-00-11 23:00:43.459 [main] INFO   - Open our site
+2019-00-11 23:00:45.006 [main] INFO   - Click to SignIn
+2019-00-11 23:00:46.647 [main] INFO   - Login
+2019-00-11 23:00:48.405 [main] INFO   - Chose T-shirts category
+2019-00-11 23:00:49.891 [main] INFO   - Go to T-shirts product page
+2019-00-11 23:00:51.173 [main] INFO   - Add product
+2019-00-11 23:00:52.420 [main] INFO   - Go to ShoppingCartSummary
+2019-00-11 23:00:52.608 [main] INFO   - Add product and check price
+2019-01-11 23:01:39.714 [main] INFO   - Open our site
+2019-01-11 23:01:41.292 [main] INFO   - Click to SignIn
+2019-01-11 23:01:42.970 [main] INFO   - Login
+2019-01-11 23:01:44.800 [main] INFO   - Chose T-shirts category
+2019-01-11 23:01:46.325 [main] INFO   - Go to T-shirts product page
+2019-01-11 23:01:47.596 [main] INFO   - Add product
+2019-01-11 23:01:48.896 [main] INFO   - Go to ShoppingCartSummary
+2019-03-11 23:03:14.545 [main] INFO   - Add product and check price
+2019-05-11 23:05:32.255 [main] INFO   - Open our site
+2019-05-11 23:05:33.926 [main] INFO   - Click to SignIn
+2019-05-11 23:05:35.624 [main] INFO   - Login
+2019-05-11 23:05:37.269 [main] INFO   - Chose T-shirts category
+2019-05-11 23:05:38.881 [main] INFO   - Go to T-shirts product page
+2019-05-11 23:05:40.166 [main] INFO   - Add product
+2019-05-11 23:05:41.540 [main] INFO   - Go to ShoppingCartSummary
+2019-05-11 23:05:42.174 [main] ERROR  - null
+2019-06-11 23:06:21.513 [main] INFO   - Open our site
+2019-06-11 23:06:23.061 [main] INFO   - Click to SignIn
+2019-06-11 23:06:24.868 [main] INFO   - Login
+2019-06-11 23:06:26.485 [main] INFO   - Chose T-shirts category
+2019-06-11 23:06:28.062 [main] INFO   - Go to T-shirts product page
+2019-06-11 23:06:29.354 [main] INFO   - Add product
+2019-06-11 23:06:30.650 [main] INFO   - Go to ShoppingCartSummary
+2019-06-11 23:06:31.303 [main] ERROR  - null
+2019-06-11 23:06:57.400 [main] INFO   - Open our site
+2019-06-11 23:06:58.929 [main] INFO   - Click to SignIn
+2019-07-11 23:07:00.628 [main] INFO   - Login
+2019-07-11 23:07:02.109 [main] INFO   - Chose T-shirts category
+2019-07-11 23:07:03.635 [main] INFO   - Go to T-shirts product page
+2019-07-11 23:07:04.924 [main] INFO   - Add product
+2019-07-11 23:07:06.285 [main] INFO   - Go to ShoppingCartSummary
+2019-07-11 23:07:06.930 [main] ERROR  - null
+2019-10-11 23:10:01.772 [main] INFO   - Open our site
+2019-10-11 23:10:03.389 [main] INFO   - Click to SignIn
+2019-10-11 23:10:05.126 [main] INFO   - Login
+2019-10-11 23:10:06.787 [main] INFO   - Chose T-shirts category
+2019-10-11 23:10:08.351 [main] INFO   - Go to T-shirts product page
+2019-10-11 23:10:09.599 [main] INFO   - Add product
+2019-10-11 23:10:10.932 [main] INFO   - Go to ShoppingCartSummary
+2019-10-11 23:10:11.586 [main] ERROR  - null
+2019-18-11 23:18:59.890 [main] INFO   - Open our site
+2019-19-11 23:19:01.525 [main] INFO   - Click to SignIn
+2019-19-11 23:19:03.177 [main] INFO   - Login
+2019-19-11 23:19:04.945 [main] INFO   - Chose T-shirts category
+2019-19-11 23:19:06.502 [main] INFO   - Go to T-shirts product page
+2019-19-11 23:19:07.759 [main] INFO   - Add product
+2019-19-11 23:19:09.023 [main] INFO   - Go to ShoppingCartSummary
+2019-19-11 23:19:09.245 [main] INFO   - Add product and check price
+2019-19-11 23:19:31.171 [main] INFO   - Open our site
+2019-19-11 23:19:32.749 [main] INFO   - Click to SignIn
+2019-19-11 23:19:34.412 [main] INFO   - Login
+2019-19-11 23:19:36.308 [main] INFO   - Chose T-shirts category
+2019-19-11 23:19:37.955 [main] INFO   - Go to T-shirts product page
+2019-19-11 23:19:39.205 [main] INFO   - Add product
+2019-19-11 23:19:40.448 [main] INFO   - Go to ShoppingCartSummary
+2019-19-11 23:19:40.664 [main] INFO   - Add product and check price
+2019-19-11 23:19:54.300 [main] INFO   - Open our site
+2019-19-11 23:19:55.821 [main] INFO   - Click to SignIn
+2019-19-11 23:19:57.774 [main] INFO   - Login
+2019-19-11 23:19:59.541 [main] INFO   - Chose T-shirts category
+2019-20-11 23:20:01.086 [main] INFO   - Go to T-shirts product page
+2019-20-11 23:20:02.338 [main] INFO   - Add product
+2019-20-11 23:20:04.053 [main] INFO   - Go to ShoppingCartSummary
+2019-20-11 23:20:16.122 [main] INFO   - Add product and check price

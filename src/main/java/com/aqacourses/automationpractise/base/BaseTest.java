@@ -86,6 +86,7 @@ public class BaseTest {
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 
+
     /**
      * Write down info message
      *

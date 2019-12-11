@@ -95,3 +95,96 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Temp\scoped_dir6728_1939...}, goog:chromeOptions: {debuggerAddress: localhost:53463}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
 Session ID: 2736800665a12eb603b9bd07c603a1e2
 *** Element info: {Using=xpath, value=//*[@class='exclusive added']/span}
+2019-56-11 21:56:44.644 [main] INFO   - Open our site
+2019-56-11 21:56:46.168 [main] INFO   - Click to SignIn
+2019-56-11 21:56:48.031 [main] INFO   - Login
+2019-56-11 21:56:49.683 [main] INFO   - Chose T-shirts category
+2019-56-11 21:56:51.561 [main] INFO   - Go to T-shirts product page
+2019-56-11 21:56:52.816 [main] INFO   - Add product
+2019-21-11 22:21:27.303 [main] INFO   - Open our site
+2019-21-11 22:21:28.936 [main] INFO   - Click to SignIn
+2019-21-11 22:21:30.653 [main] INFO   - Login
+2019-21-11 22:21:32.338 [main] INFO   - Chose T-shirts category
+2019-21-11 22:21:33.768 [main] INFO   - Go to T-shirts product page
+2019-21-11 22:21:35.064 [main] INFO   - Add product
+2019-21-11 22:21:36.309 [main] INFO   - Go to ShoppingCartSummary
+2019-00-11 23:00:43.459 [main] INFO   - Open our site
+2019-00-11 23:00:45.006 [main] INFO   - Click to SignIn
+2019-00-11 23:00:46.647 [main] INFO   - Login
+2019-00-11 23:00:48.405 [main] INFO   - Chose T-shirts category
+2019-00-11 23:00:49.891 [main] INFO   - Go to T-shirts product page
+2019-00-11 23:00:51.173 [main] INFO   - Add product
+2019-00-11 23:00:52.420 [main] INFO   - Go to ShoppingCartSummary
+2019-00-11 23:00:52.608 [main] INFO   - Add product and check price
+2019-01-11 23:01:39.714 [main] INFO   - Open our site
+2019-01-11 23:01:41.292 [main] INFO   - Click to SignIn
+2019-01-11 23:01:42.970 [main] INFO   - Login
+2019-01-11 23:01:44.800 [main] INFO   - Chose T-shirts category
+2019-01-11 23:01:46.325 [main] INFO   - Go to T-shirts product page
+2019-01-11 23:01:47.596 [main] INFO   - Add product
+2019-01-11 23:01:48.896 [main] INFO   - Go to ShoppingCartSummary
+2019-03-11 23:03:14.545 [main] INFO   - Add product and check price
+2019-05-11 23:05:32.255 [main] INFO   - Open our site
+2019-05-11 23:05:33.926 [main] INFO   - Click to SignIn
+2019-05-11 23:05:35.624 [main] INFO   - Login
+2019-05-11 23:05:37.269 [main] INFO   - Chose T-shirts category
+2019-05-11 23:05:38.881 [main] INFO   - Go to T-shirts product page
+2019-05-11 23:05:40.166 [main] INFO   - Add product
+2019-05-11 23:05:41.540 [main] INFO   - Go to ShoppingCartSummary
+2019-05-11 23:05:42.174 [main] ERROR  - null
+2019-06-11 23:06:21.513 [main] INFO   - Open our site
+2019-06-11 23:06:23.061 [main] INFO   - Click to SignIn
+2019-06-11 23:06:24.868 [main] INFO   - Login
+2019-06-11 23:06:26.485 [main] INFO   - Chose T-shirts category
+2019-06-11 23:06:28.062 [main] INFO   - Go to T-shirts product page
+2019-06-11 23:06:29.354 [main] INFO   - Add product
+2019-06-11 23:06:30.650 [main] INFO   - Go to ShoppingCartSummary
+2019-06-11 23:06:31.303 [main] ERROR  - null
+2019-06-11 23:06:57.400 [main] INFO   - Open our site
+2019-06-11 23:06:58.929 [main] INFO   - Click to SignIn
+2019-07-11 23:07:00.628 [main] INFO   - Login
+2019-07-11 23:07:02.109 [main] INFO   - Chose T-shirts category
+2019-07-11 23:07:03.635 [main] INFO   - Go to T-shirts product page
+2019-07-11 23:07:04.924 [main] INFO   - Add product
+2019-07-11 23:07:06.285 [main] INFO   - Go to ShoppingCartSummary
+2019-07-11 23:07:06.930 [main] ERROR  - null
+2019-10-11 23:10:01.772 [main] INFO   - Open our site
+2019-10-11 23:10:03.389 [main] INFO   - Click to SignIn
+2019-10-11 23:10:05.126 [main] INFO   - Login
+2019-10-11 23:10:06.787 [main] INFO   - Chose T-shirts category
+2019-10-11 23:10:08.351 [main] INFO   - Go to T-shirts product page
+2019-10-11 23:10:09.599 [main] INFO   - Add product
+2019-10-11 23:10:10.932 [main] INFO   - Go to ShoppingCartSummary
+2019-10-11 23:10:11.586 [main] ERROR  - null
+2019-18-11 23:18:59.890 [main] INFO   - Open our site
+2019-19-11 23:19:01.525 [main] INFO   - Click to SignIn
+2019-19-11 23:19:03.177 [main] INFO   - Login
+2019-19-11 23:19:04.945 [main] INFO   - Chose T-shirts category
+2019-19-11 23:19:06.502 [main] INFO   - Go to T-shirts product page
+2019-19-11 23:19:07.759 [main] INFO   - Add product
+2019-19-11 23:19:09.023 [main] INFO   - Go to ShoppingCartSummary
+2019-19-11 23:19:09.245 [main] INFO   - Add product and check price
+2019-19-11 23:19:31.171 [main] INFO   - Open our site
+2019-19-11 23:19:32.749 [main] INFO   - Click to SignIn
+2019-19-11 23:19:34.412 [main] INFO   - Login
+2019-19-11 23:19:36.308 [main] INFO   - Chose T-shirts category
+2019-19-11 23:19:37.955 [main] INFO   - Go to T-shirts product page
+2019-19-11 23:19:39.205 [main] INFO   - Add product
+2019-19-11 23:19:40.448 [main] INFO   - Go to ShoppingCartSummary
+2019-19-11 23:19:40.664 [main] INFO   - Add product and check price
+2019-19-11 23:19:54.300 [main] INFO   - Open our site
+2019-19-11 23:19:55.821 [main] INFO   - Click to SignIn
+2019-19-11 23:19:57.774 [main] INFO   - Login
+2019-19-11 23:19:59.541 [main] INFO   - Chose T-shirts category
+2019-20-11 23:20:01.086 [main] INFO   - Go to T-shirts product page
+2019-20-11 23:20:02.338 [main] INFO   - Add product
+2019-20-11 23:20:04.053 [main] INFO   - Go to ShoppingCartSummary
+2019-20-11 23:20:16.122 [main] INFO   - Add product and check price
+2019-24-11 23:24:16.716 [main] INFO   - Open our site
+2019-24-11 23:24:18.320 [main] INFO   - Click to SignIn
+2019-24-11 23:24:19.984 [main] INFO   - Login
+2019-24-11 23:24:21.428 [main] INFO   - Chose T-shirts category
+2019-24-11 23:24:23.001 [main] INFO   - Go to T-shirts product page
+2019-24-11 23:24:24.255 [main] INFO   - Add product
+2019-24-11 23:24:25.524 [main] INFO   - Go to ShoppingCartSummary
+2019-24-11 23:24:26.156 [main] ERROR  - null
